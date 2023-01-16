@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button id="helloButton">Начало</button>
+    <button id="endButton">Конец</button>
+    <button id="aiButton">Нейроночка</button>
+<script>
+    const helloButton = document.getElementById('helloButton')
+    helloButton.addEventListener('click', function () {
+        window.location.href='hello'
+    })
+    const endButton = document.getElementById('endButton')
+    endButton.addEventListener('click', function () {
+        window.location.href='end'
+    })
+    const aiButton = document.getElementById('aiButton')
+    aiButton.addEventListener('click', function () {
+        window.location.href='ai'
+    })
+</script>
+</body>
+</html>
